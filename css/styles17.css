@@ -1,0 +1,216 @@
+/* css reset stuff */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* main styles */
+
+
+/* HEADER STYLES */
+
+header {
+    background: #222222;
+    color: #ffffff;
+    padding: 20px 30px;
+}
+
+/* logo nest inside header */
+
+header #logo {
+    color: white;
+    text-decoration: none;
+    width: 49%;
+    display: inline-block
+}
+
+header #logo img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* MAIN NAVIGATION */
+
+header #main-navigation {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+header #main-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+header #main-navigation ul li {
+    display: inline-block; 
+}
+
+header #main-navigation ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header #main-navigation ul li a:hover {
+    background: #444;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+} 
+
+/* footer*/
+
+footer   {
+  background: #222;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+}
+footer img   {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+  margin: 0 auto 10px;
+}
+
+/* MAIN CONTENT */
+
+/* HERO SECTION */
+
+.hero {
+    min-height: 800px;
+    text-align: center;
+    background: #555;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
+
+.hero-content {
+    color: white;
+    padding-top: 130px;
+    line-height: 1;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 100px;
+}
+
+.hero-content p {
+    font-size: 50px; 
+    margin-bottom: 60px;
+}
+
+.hero-content a {
+    color: white;
+    border: 3px solid white;
+    border-radius: 3px;
+    padding 15px 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 28px;
+    
+}
+
+/* SITE SECTION STYLINGS */
+
+.site-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+.site-section-secondary {
+    background: #EFEFEF;
+}
+
+.site-section-inside {
+    width: 80%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-header h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #777;
+}
+
+/* FEATURE BOXES */
+
+.feature-box {
+    display: inline-block;
+    width: 25%;
+    padding: 20px 30px;
+    line-height: 1;
+}
+
+.feature-box img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.feature-box h5 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 300px;
+    letter-spacing: 2px;
+}
+
+/* TESTIMONIALS */
+
+.testimonial-box {
+    display: inline-block;
+    width: 27%;
+    padding: 20px 30px;   
+}
+
+.testimonial-content {
+    background: white;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.testimonial-author {
+    
+}
+
+.testimonial-author img {
+    float: left; 
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.testimonial-author h5 {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+testimonial-author span {
+    color: #999;
+    font-size:14px;
+}
+
+/*  different browsers render each other a little differently */
+/* so to make sure that we are working on a clean slate that will apply equally on all browsers we will use a css reset. */
+
+/* we will apply this in our head to apply before our styles css because we want this to take place first so our styles sheet will override it. */

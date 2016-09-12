@@ -1,0 +1,38 @@
+/* css reset stuff */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* main styles */
+
+
+/* HEADER STYLES */
+
+header {
+    background: #222222;
+    color: #ffffff;
+    padding: 20px 30px;
+}
+
+/* logo nest inside header */
+
+header #logo {
+    color: white;
+    text-decoration: none;
+}
+
+header #logo img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/*  different browsers render each other a little differently */
+/* so to make sure that we are working on a clean slate that will apply equally on all browsers we will use a css reset. */
+
+/* we will apply this in our head to apply before our styles css because we want this to take place first so our styles sheet will override it. */
