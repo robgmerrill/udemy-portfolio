@@ -90,7 +90,9 @@ footer img   {
     min-height: 800px;
     text-align: center;
     background: #555;
-    background-image: url('../img/background.jpg');
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/background.jpg');
+/*    background-image: url('../img/background.jpg');*/
     background-size: cover;
 }
 
