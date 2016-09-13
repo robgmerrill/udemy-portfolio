@@ -82,6 +82,8 @@ footer img   {
   margin: 0 auto 10px;
 }
 
+
+
 /* MAIN CONTENT */
 
 /* HERO SECTION */
@@ -98,7 +100,7 @@ footer img   {
 
 .hero-content {
     color: white;
-    padding-top: 130px;
+    padding-top: 240px;
     line-height: 1;
 }
 
@@ -132,7 +134,8 @@ footer img   {
 }
 
 .site-section-secondary {
-    background: #EFEFEF;
+/*    background: #EFEFEF;*/
+    background: #ECF0F1;
 }
 
 .site-section-inside {
@@ -270,6 +273,12 @@ testimonial-author span {
         display: block;
 }
 
+    .feature-box img {
+     display: block;
+    margin-left: auto;
+    margin-right: auto
+    }
+}
 /*  different browsers render each other a little differently */
 /* so to make sure that we are working on a clean slate that will apply equally on all browsers we will use a css reset. */
 
