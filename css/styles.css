@@ -77,7 +77,7 @@ footer   {
 }
 footer img   {
   display: block;
-  border-radius: 5px;
+  border-radius: 50%;
   width: 80px;
   margin: 0 auto 10px;
 }
@@ -235,7 +235,7 @@ testimonial-author span {
         width: 100%;
         display: block; 
         text-align: center;
-        font-size: 10px;
+        font-size: 14px;
     }
     
 /*  HERO  */
